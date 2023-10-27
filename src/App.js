@@ -1,5 +1,6 @@
 import Navbar from './navbar'
 import BottomNav from './buttomnav'
+import CheckBox from './checkbox'
 import { AiFillPlusCircle} from 'react-icons/ai'
 
 function App() {
@@ -16,10 +17,11 @@ function App() {
           Just head on to the next page.
         </p>
       </div>
-      <div className="add-experiance">
+      <div className="add-experience">
         <AiFillPlusCircle className="icon" />
-        <p>Add Experiance</p>
+        <p>Add Experience</p>
       </div>
+      <CheckBox />
       <BottomNav />
     </div>
   )
