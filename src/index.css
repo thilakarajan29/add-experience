@@ -111,7 +111,11 @@
   background-color: blue;
 }
 
-.check-box-div{
+.check-box {
+  margin-right: 10px;
+}
+
+.check-box-div {
   margin-left: 40px;
   margin-top: 20px;
 }
